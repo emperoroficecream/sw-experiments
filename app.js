@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
     } else if (reg.waiting) {
       console.log('sw waiting');
     } else if (reg.active) {
-      console.llog('sw active');
+      console.log('sw active');
     }
   }).catch(e => console.log('registration failed with ' + e));
 }
